@@ -141,7 +141,7 @@ header, section {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 3em;
 }
 
@@ -181,8 +181,10 @@ header img {
     opacity: 1;
 }
 
-.curve-border{
+.photo-display{
     border-radius: 2em;
+    max-width: 100%;
+    height: auto;
 }
 
 .text-container {

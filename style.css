@@ -43,6 +43,24 @@ h1, h2, h3 {
     font-size: 3rem;
 }
 
+.game-title {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.game-title:hover {
+    text-decoration: underline;
+    color: slategray;
+}
+
+.game-paragraph-l {
+    margin-right: 40em;
+}
+
+.game-paragraph-r {
+    margin-left: 40em;
+}
+
 nav {
     margin: 1em auto 3em auto;
     width: min(1000px, 100%);
@@ -144,6 +162,14 @@ nav a:hover {
         padding-bottom: 2em;
         justify-self: center;
     }
+
+    .game-paragraph-l{
+        margin-right: auto;
+    }
+
+    .game-paragraph-r{
+        margin-left: auto;
+    }
 }
 
 .title-d:hover {
@@ -193,7 +219,7 @@ header, section {
 }
 
 .flex-container-nowrap {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -211,6 +237,15 @@ header img {
     display: inline-block;
     max-width: 100%;
     height: auto;
+}
+
+.normal-image {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+    width: 400px;
+    max-width: 100%;
+    height: auto; 
 }
 
 .disappearing {
